@@ -1,0 +1,8 @@
+Browser -> Server HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+Server -> Browser application/json @ /exampleapp/new_note_spa
+
+
+Unlike in the non-onepage app, when submitting a new note, the page only POSTS this requests to the server without having to re-render the page.
+
+So with the one-page app, the page only loads once rather than having to reload after every note submission.

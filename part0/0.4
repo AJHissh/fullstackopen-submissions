@@ -1,0 +1,35 @@
+Browser POSTS note text to the server when submit is clicked:
+
+browser -> server : HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+
+Browser GETS html page from the server with new note:
+
+browser -> server : HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
+
+Server serves html page to display on browser :
+
+server > browser : text/html @ /example/notes
+
+Browser GETS css file from server & renders css:
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+
+server-->browser: main.css
+
+Browser GETS main.js file from server & runs JS code:
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
+
+server-->browser: main.js
+
+PAGE IS NOW UPDATED WITH NEW NOTE AND HAS RE-RENDERED ALL ASSETS
+
+
+
+
+
+
+
+Browser GETS main.js file from server & runs code
+
+
